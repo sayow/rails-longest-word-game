@@ -1,7 +1,16 @@
-<h1>New Game</h1>
+<h1 class= "h1">New Game</h1>
 
 <ul class= "ul">
  <% @letters.each do |letter| %>
     <li class= "ul"><%= letter %> </li>
   <% end %>
 </ul>
+
+
+<h2 class= "h1">What is the longgest word you can form?</h2>
+<form action="/score" method="post">
+  <input type="text" name="member">
+  <input type="submit">
+</form>
+
+<%= hidden_field_tag :authenticity_token, form_authenticity_token %>
