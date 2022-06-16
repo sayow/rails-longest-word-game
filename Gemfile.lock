@@ -63,7 +63,11 @@ GEM
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     bindex (0.8.1)
+<<<<<<< HEAD
     bootsnap (1.12.0)
+=======
+    bootsnap (1.11.1)
+>>>>>>> cdf445f4612e8aa87d0729b7def1f4aa5d6145fd
       msgpack (~> 1.2)
     builder (3.2.4)
     byebug (11.1.3)
@@ -100,8 +104,13 @@ GEM
     matrix (0.4.2)
     method_source (1.0.0)
     mini_mime (1.1.2)
+<<<<<<< HEAD
     minitest (5.16.0)
     msgpack (1.5.2)
+=======
+    minitest (5.15.0)
+    msgpack (1.5.1)
+>>>>>>> cdf445f4612e8aa87d0729b7def1f4aa5d6145fd
     nio4r (2.5.8)
     nokogiri (1.13.6-x86_64-linux)
       racc (~> 1.4)
@@ -109,7 +118,11 @@ GEM
     puma (5.6.4)
       nio4r (~> 2.0)
     racc (1.6.0)
+<<<<<<< HEAD
     rack (2.2.3.1)
+=======
+    rack (2.2.3)
+>>>>>>> cdf445f4612e8aa87d0729b7def1f4aa5d6145fd
     rack-mini-profiler (2.3.4)
       rack (>= 1.2.0)
     rack-proxy (0.7.2)
@@ -134,7 +147,11 @@ GEM
     rails-dom-testing (2.0.3)
       activesupport (>= 4.2.0)
       nokogiri (>= 1.6)
+<<<<<<< HEAD
     rails-html-sanitizer (1.4.3)
+=======
+    rails-html-sanitizer (1.4.2)
+>>>>>>> cdf445f4612e8aa87d0729b7def1f4aa5d6145fd
       loofah (~> 2.3)
     railties (6.1.6)
       actionpack (= 6.1.6)
@@ -146,7 +163,11 @@ GEM
     rb-fsevent (0.11.1)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
+<<<<<<< HEAD
     regexp_parser (2.5.0)
+=======
+    regexp_parser (2.4.0)
+>>>>>>> cdf445f4612e8aa87d0729b7def1f4aa5d6145fd
     rexml (3.2.5)
     rubyzip (2.3.2)
     sass-rails (6.0.0)
@@ -159,11 +180,18 @@ GEM
       sprockets (> 3.0)
       sprockets-rails
       tilt
+<<<<<<< HEAD
     selenium-webdriver (4.2.1)
       childprocess (>= 0.5, < 5.0)
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
+=======
+    selenium-webdriver (4.1.0)
+      childprocess (>= 0.5, < 5.0)
+      rexml (~> 3.2, >= 3.2.5)
+      rubyzip (>= 1.2.2)
+>>>>>>> cdf445f4612e8aa87d0729b7def1f4aa5d6145fd
     semantic_range (3.0.0)
     spring (4.0.0)
     sprockets (4.0.3)
@@ -173,7 +201,11 @@ GEM
       actionpack (>= 5.2)
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
+<<<<<<< HEAD
     sqlite3 (1.4.4)
+=======
+    sqlite3 (1.4.2)
+>>>>>>> cdf445f4612e8aa87d0729b7def1f4aa5d6145fd
     thor (1.2.1)
     tilt (2.0.10)
     turbolinks (5.2.1)
@@ -195,13 +227,20 @@ GEM
       rack-proxy (>= 0.6.1)
       railties (>= 5.2)
       semantic_range (>= 2.3.0)
+<<<<<<< HEAD
     websocket (1.2.9)
+=======
+>>>>>>> cdf445f4612e8aa87d0729b7def1f4aa5d6145fd
     websocket-driver (0.7.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
     xpath (3.2.0)
       nokogiri (~> 1.8)
+<<<<<<< HEAD
     zeitwerk (2.6.0)
+=======
+    zeitwerk (2.5.4)
+>>>>>>> cdf445f4612e8aa87d0729b7def1f4aa5d6145fd
 
 PLATFORMS
   x86_64-linux
@@ -229,4 +268,8 @@ RUBY VERSION
    ruby 3.0.3p157
 
 BUNDLED WITH
+<<<<<<< HEAD
    2.3.14
+=======
+   2.3.10
+>>>>>>> cdf445f4612e8aa87d0729b7def1f4aa5d6145fd
