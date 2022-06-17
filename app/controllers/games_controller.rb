@@ -2,6 +2,7 @@ require "json"
 require "open-uri"
 
 class GamesController < ApplicationController
+  skip_before_action :verify_authenticity_token
   VOWELS = %w(A E I O U Y)
 
   def new
